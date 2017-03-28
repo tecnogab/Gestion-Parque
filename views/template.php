@@ -109,14 +109,7 @@
         <!-- begin MAIN PAGE CONTENT -->
         <div id="page-wrapper">
                         
-            <section>
-                <?php                    
-                    $main_controller = new MainController();
-                    $main_controller->linksPagesController();
-                    var_dump($main_controller);
-                ?>
-                
-            </section>
+            
 
         </div>
         <!-- /#page-wrapper -->
