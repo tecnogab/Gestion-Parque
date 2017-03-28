@@ -1,3 +1,12 @@
+<?php 
+    if (!isset($_SESSION)) { session_start(); } 
+    if(!$_SESSION["validar"]){  
+        echo "<script>"
+            . "window.location.replace(\"http://10.224.24.247/parque/\");"
+            . "</script>";
+        exit();
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Flex Admin - Responsive Admin Theme</title>
+    <title>Sistema de gestion de cementerios parques V1.0</title>
 
     <!-- PACE LOAD BAR PLUGIN - This creates the subtle load bar effect at the top of the page. -->
     <link href="css/plugins/pace/pace.css" rel="stylesheet">
@@ -85,7 +94,7 @@
                     </li>
                     <!-- end DASHBOARD LINK -->
                     
-                    <?php
+                    <?php                        
                         include "template/nav-listados-clientes.php";
                     ?>
                     
@@ -104,6 +113,7 @@
                 <?php                    
                     $main_controller = new MainController();
                     $main_controller->linksPagesController();
+                    var_dump($main_controller);
                 ?>
                 
             </section>
