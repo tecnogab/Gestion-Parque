@@ -37,7 +37,7 @@
                 <li>
                     <a class="logout_open" href="index.php?action=logout">
                         <i class="fa fa-sign-out"></i> Logout
-                        <strong>José Gabriel</strong>
+                        <strong>José Edgardo</strong>
                     </a>
                 </li>
             </ul>
