@@ -131,17 +131,18 @@
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
     <script src="js/plugins/popupoverlay/jquery.popupoverlay.js"></script>
     <script src="js/plugins/popupoverlay/defaults.js"></script>
+    
     <!-- Logout Notification Box -->
     <div id="logout">
         <div class="logout-message">
-            <img class="img-circle img-logout" src="img/profile-pic.jpg" alt="">
+            <img class="img-circle img-logout" src="img/profile-pic.png" alt="">
             <h3>
-                <i class="fa fa-sign-out text-green"></i> Ready to go?
+                <i class="fa fa-sign-out text-green"></i> Listo para salir?
             </h3>
-            <p>Select "Logout" below if you are ready<br> to end your current session.</p>
+            <p>Seleccione "Logout" si está listo<br> para finalizar su sesión actual.</p>
             <ul class="list-inline">
                 <li>
-                    <a href="login.html" class="btn btn-green">
+                    <a href="index.php?action=logout" class="btn btn-green">
                         <strong>Logout</strong>
                     </a>
                 </li>

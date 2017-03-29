@@ -8,7 +8,7 @@
         <p>Select "Logout" below if you are ready<br> to end your current session.</p>
         <ul class="list-inline">
             <li>
-                <a href="index.php?action=logout-login" class="btn btn-green">
+                <a href="index.php?action=logout" class="btn btn-green">
                     <strong>Logout</strong>
                 </a>
             </li>
